@@ -1,5 +1,12 @@
 # Would You Survive The Titanic?
 
+Utilises:
+- Python
+- Dash
+- Pandas
+- Scikit-Learn
+- PythonAnywhere
+
 Test your chances of surviving the titanic given who you are, who you brought along, and where you are bunking.
 
 The app uses the dash framework, predicting with a random forest classifier to produce a probability of survival, this model was pickled as model.pkl and recalled in the app, no update learning occurs.  
