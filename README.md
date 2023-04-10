@@ -7,3 +7,5 @@ The app uses the dash framework, predicting with a random forest classifier to p
 The %wsgi.py file contains the python code to run the actual server, in this instance it grabs the app object in the "flask_app.py" on pythonanywhere and creates a server object as called 'application' (it must recognise that key word is the server when deploying).
 
 The assets folder is again a default for dash where local images and css files are assumed to live.
+
+The pythonanywhere environment has many python libraries preinstalled (dash, pandas, scikit, xgboost, etc), therefore little to no need to create a virtual environment.
