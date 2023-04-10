@@ -1,0 +1,37 @@
+body {
+    background-color:#ddd2d2;
+    margin: 1;
+    padding: 1;
+  }
+  
+img {
+    width: 400px;
+  }
+
+
+/********************* TEXT *********************/
+h1 {
+    margin: 25px;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: rgb(75, 55, 55);
+    text-align: center;s
+  }
+
+p {
+    color: rgb(120, 100, 100);
+}
+
+button {
+    width: 240px;
+    height: 40px;
+    cursor: pointer;
+    border: 2px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin: 10px;
+  }
+
