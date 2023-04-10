@@ -8,7 +8,7 @@ from sklearn.preprocessing import OneHotEncoder
 import pickle
 
 # Read in Kaggle Training Set
-data = pd.read_csv('titanic/train.csv')
+data = pd.read_csv('train.csv')
 
 # Variables to include:
 # Name input > Calc Len and Detect title
